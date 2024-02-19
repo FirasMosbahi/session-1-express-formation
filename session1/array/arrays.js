@@ -18,5 +18,6 @@ console.log(x)
 /**
  * pop will delete the last item from the array and return it as a result
  */
+// const z = x.pop()
 console.log(x.pop())
 console.log(x)

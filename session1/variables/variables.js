@@ -5,9 +5,9 @@ const isStudent = true
 let helloWorld = "hello"
 let y = 5
 
-/** x = x + 5
- * This expression is illegal it will produce a syntax error
- */
+// x = x + 5
+// * This expression is illegal it will produce a syntax error
+ //*/
 
 console.log("first log")
 console.log(helloWorld)

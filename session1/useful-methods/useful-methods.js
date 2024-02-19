@@ -2,9 +2,9 @@
  * map method
  */
 
-const x = [1,4,5,7,8,10]
+const x = [1,1,5,7,1,10]
 
-let pow2x = x.map((number) => x**2)
+let pow2x = x.map((number) => number**2)
 
 console.log("pow2x : ",pow2x)
 

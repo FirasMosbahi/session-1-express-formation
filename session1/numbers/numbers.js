@@ -20,3 +20,7 @@ console.log("the type of x2 is :" , typeof x2)
 x2 = Number.parseInt(x2)
 
 console.log("the new type of x2 is :" , typeof x2)
+
+// division euclidienne :
+
+console.log("division euclidienne : ",Math.floor(x/y))

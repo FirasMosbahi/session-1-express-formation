@@ -3,4 +3,6 @@ function gentleGreeting(object) {
     if(object.gender === "female") console.log("hello my lady")
 }
 
-gentleGreeting({gender : "male"})
+gentleGreeting({gender : "female"})
+
+// console.log(23 === "23")

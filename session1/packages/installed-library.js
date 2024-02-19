@@ -5,7 +5,7 @@ const bcrypt = require('bcrypt')
 
 const my_secret_string = "hello fresh backend developers"
 
-const saltRounds = 10
+const saltRounds = 8
 
 bcrypt.genSalt(saltRounds, function(err, salt) {
     bcrypt.hash(my_secret_string, salt, function(err, hash) {

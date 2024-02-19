@@ -12,5 +12,8 @@ console.log(age);
 const { job: profession } = firas;
 console.log(profession);
 
+// const {email} = firas
+// console.log(email)
+
 const { email = "firas@gmail.com" } = firas;
 console.log(email);

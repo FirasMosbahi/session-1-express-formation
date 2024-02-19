@@ -5,8 +5,8 @@ console.log("--------------------destruction in arrays--------------------------
 
 const numbers = [1, 2, 3, 4, 5];
 
-const [first, last] = numbers;
-console.log("first",first);
+const [first1, last] = numbers;
+console.log("first",first1);
 console.log("last" , last)
 
 const [first ,second, ...rest] = numbers;
